@@ -14,6 +14,7 @@
 		65E833712D42503E00E21AF8 /* NotesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E833702D42503E00E21AF8 /* NotesAppTests.swift */; };
 		65E8337B2D42503E00E21AF8 /* NotesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8337A2D42503E00E21AF8 /* NotesAppUITests.swift */; };
 		65E8337D2D42503E00E21AF8 /* NotesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8337C2D42503E00E21AF8 /* NotesAppUITestsLaunchTests.swift */; };
+		65E8338A2D4257B200E21AF8 /* Pag2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E833892D4257B200E21AF8 /* Pag2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		65E833762D42503E00E21AF8 /* NotesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E8337A2D42503E00E21AF8 /* NotesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesAppUITests.swift; sourceTree = "<group>"; };
 		65E8337C2D42503E00E21AF8 /* NotesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65E833892D4257B200E21AF8 /* Pag2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pag2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				65E8335F2D42503A00E21AF8 /* NotesAppApp.swift */,
 				65E833612D42503A00E21AF8 /* ContentView.swift */,
+				65E833892D4257B200E21AF8 /* Pag2View.swift */,
 				65E833632D42503E00E21AF8 /* Assets.xcassets */,
 				65E833652D42503E00E21AF8 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				65E833622D42503A00E21AF8 /* ContentView.swift in Sources */,
 				65E833602D42503A00E21AF8 /* NotesAppApp.swift in Sources */,
+				65E8338A2D4257B200E21AF8 /* Pag2View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

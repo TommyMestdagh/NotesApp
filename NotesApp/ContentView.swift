@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var Note: String = ""
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("update")
+        NavigationStack {
+            VStack {
+                HStack {
+                    Text("NOTES").padding().font(.title).fontWeight(.heavy)
+                    Spacer()
+                }
+                
+                Spacer()
+                NavigationLink("click here", destination: Pag2View())
+                Spacer()
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
